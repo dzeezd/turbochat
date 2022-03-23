@@ -1,3 +1,5 @@
+# app/controllers/turbo_devise_controller.rb
+
 class TurboDeviseController < ApplicationController
   class Responder < ActionController::Responder
     def to_turbo_stream

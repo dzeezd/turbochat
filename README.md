@@ -5,7 +5,7 @@
 ## Development Setup
 Commands that were run during development:
 
-
+![Day 1](https://github.com/dzeezd/turbochat/blob/main/notes/day1.txt)
 
 ## References:
 

@@ -9,7 +9,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
-development:
+staging:
   <<: *default
   database: db/development.sqlite3
 
@@ -23,3 +23,14 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+development:
+  <<: *default
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: turbochat 
+  username: turbochat
+  password: password
+
+ 
